@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/send_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10010" />
+        <EditText
+        android:id="@+id/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10010" />
+
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="發送短信" >
+    </Button>
+
+    <Button
+        android:id="@+id/delete_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="單獨刪除短信" >
+    </Button>
+
+</LinearLayout>
